@@ -1,0 +1,55 @@
+{
+    "BATCH_SIZE": 16,
+    "CHECKPOINT_INTERVAL": 1,
+    "LEARNING_RATE": 5e-04,
+    "MAX_EPOCHS": 201,
+    "annotation_list_file_name": "annotation_list_train.txt",
+    "annotation_list_file_name_t": "annotation_list_test.txt",
+    "annotation_list_file_name_v": "annotation_list_validate.txt",
+    "classes": [
+        0,
+        1,
+        2,
+        3,
+        4
+    ],
+    "clip_duration": 5,
+    "crop_bounds": [
+        100,
+        45,
+        470,
+        350
+    ],
+    "cnn_channels": [
+        1,
+        16,
+        32,
+        64
+    ],
+    "n_classification_layers": 1,
+    "spatial_att_layers": [
+      0,
+      1,
+      2
+    ],
+    "data_folder": "/home/ag09/data/VITAL/lungs/US-Dataset_share",
+    "delete_existing_images": false,
+    "do_test": false,
+    "imsize": [
+        64,
+        64
+    ],
+    "lstm_regularization": 0,
+    "max_samples_per_class": -1,
+    "max_draws_per_class": 400,
+    "max_draws_per_class_v": 50,
+    "model": "stAttLSTM",
+    "output_folder": "",
+    "use_tmp_storage": true,
+    "video_list_file_name": "video_list_train.txt",
+    "video_list_file_name_t": "video_list_test.txt",
+    "video_list_file_name_v": "video_list_validate.txt",
+    "regularization": 1e-00,
+    "dropout": 0.3,
+    "continue_training_from_checkpoint": true
+}

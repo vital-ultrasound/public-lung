@@ -1,0 +1,19 @@
+// the configured options and settings for Plugin python
+#ifndef PLUGIN_LUSCLASSIFICATIONP_PYTHON_FOLDER
+#define PLUGIN_LUSCLASSIFICATIONP_PYTHON_FOLDER @PYTHON_INSTALL_PATH@
+
+namespace LUSclassificationP {
+
+char * getPythonFolder()
+{
+    return "@PYTHON_INSTALL_PATH@";
+}
+
+char * getArtFolder()
+{
+    return "@ART_INSTALL_PATH@";
+}
+
+}
+
+#endif // PLUGIN_LUSLUSCLASSIFICATIONP_PYTHON_FOLDER
